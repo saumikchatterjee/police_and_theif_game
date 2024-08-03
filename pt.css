@@ -1,0 +1,32 @@
+.sqaure{
+    width: 300px;
+    height: 300px;
+    border: solid 3px black;
+   
+}
+
+.sqaure:nth-child(5){
+    position: absolute;
+    bottom: 1px;
+    right: 350px;
+}
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+#police{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 50%;
+    bottom: 550px;
+    left: 300px;
+    position: absolute;
+    transition: top 0.3 ease , left 0.3 ease;
+}
